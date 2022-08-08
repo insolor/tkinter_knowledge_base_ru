@@ -21,3 +21,8 @@ text.insert("1.0", "Текст")
 ```python
 text.insert(tk.END, "Текст")
 ```
+
+Удаление текста полностью:
+```python
+text.delete("1.0", tk.END)
+```
