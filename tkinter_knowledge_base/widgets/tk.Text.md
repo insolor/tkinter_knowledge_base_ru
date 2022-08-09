@@ -69,6 +69,11 @@ text.tag_names()
 text.tag_add("tag_name", индекс_начала, индекс_конца)
 ```
 
+Добавление текста сразу с тегом:
+```python
+text.insert(tk.END, some_text, "tag_name")
+```python
+
 Привязка обработчиков событий на тег (например, обработка наведения, клика мышью):
 ```python
 text.tag_bind("link", "<Button-1>", self.open_link)  # Клик левой клавишей мыши
